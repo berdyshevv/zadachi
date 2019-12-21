@@ -15,5 +15,10 @@ int main(void) {
     scanf("%d", &num2);
 
     printf("the product of varibles is %d * %d = %d\n", num1, num2, num1 * num2 );
-    printf("the sum of varibles num1 and num2 equas to %d", num1 + num2 );
+    printf("the sum of %d and %d equas to %d", num1, num2, num1 + num2 );
+    // printf("%d\n", 2147483647);
+    // printf("%d\n", 2147483647 - 1);
+    // printf("%d\n", 2147483647 + 1);
+    // printf("%d", 2147483647 + 2 );
+
 }
