@@ -5,3 +5,13 @@
  * число, больше введенного с клавиатуры на 7, 
  * и число, меньше введенного с клавиатуры на 9.
  */
+#include <stdio.h>
+
+int main(){
+int num1;        
+scanf("%d", &num1);
+printf("%d\n", num1 + 7);
+printf("%d\n", num1 - 9);
+
+    return 0;
+}
