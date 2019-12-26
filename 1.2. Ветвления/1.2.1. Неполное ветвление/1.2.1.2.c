@@ -5,3 +5,15 @@
  * 
  * Например: ввод: 0 ⇒ вывод: ноль
  */
+#include <stdio.h>
+
+int main(){
+    int gg;
+    scanf("%d", &gg);
+    if (gg = 0){
+        printf("zero");
+    }
+    
+
+    return 0;
+}
