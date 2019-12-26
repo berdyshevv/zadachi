@@ -6,3 +6,13 @@
  * 
  * Например: ввод: 2006, 2018 ⇒ вывод: вам 12 лет
 */
+#include <stdio.h>
+
+int main(void){
+    int n1;
+    int n2;
+    scanf("%d%d", &n1, &n2);
+    printf("you are %d years old", n2 - n1);
+
+    return 0;
+}
