@@ -6,3 +6,14 @@
  * 
  * Например: ввод: 8 ⇒ вывод: 16
  */
+#include <stdio.h>
+
+int main(void){
+    int num;
+    scanf("%d", &num);
+    if (num > 0) {
+        printf("%d times 2 equals %d", num, num * 2);
+    }
+    
+    return 0;
+}
