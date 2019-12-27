@@ -10,3 +10,21 @@
  * ввод: 1, -5 ⇒ вывод: разные знаки; 
  * ввод: 0, 4 ⇒ вывод: некорректно
  */
+#include <stdio.h>
+
+int main(void) {
+    int num1;
+    int num2;
+    scanf("%d%d", &num1, &num2);
+    if ((num1 >0 && num2 >0) || (num1 <0 && num2 <0)) {
+        printf("the same");
+    }
+    else if ((num1 <0 && num2 >0) || (num1 >0 && num2 <0)) {
+        printf("difrent");
+    }
+    else{
+        printf("incorrect");
+    }
+
+    return 0;
+}
