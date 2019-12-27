@@ -9,3 +9,20 @@
  * ввод: -7 ⇒ вывод: отрицательное; 
  * ввод: 0 ⇒ вывод: ноль
  */
+#include <stdio.h>
+
+int main() {
+    int item;
+    scanf("%d", &item);
+    if (item > 0){
+        printf ("this is a positive number");
+    }
+    if (item = 0){
+        printf ("this number is zero"); 
+    }
+    if (item < 0){
+        printf ("this is a negative number");
+    }
+    
+    return 0;
+}
