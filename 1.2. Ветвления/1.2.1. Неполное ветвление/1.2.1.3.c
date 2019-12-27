@@ -14,14 +14,14 @@
 int main() {
     int item;
     scanf("%d", &item);
-    if (item > 0){
-        printf ("this is a positive number");
+    if (item > 0) {
+        printf("this is a positive number");
     }
-    if (item = 0){
-        printf ("this number is zero"); 
+    if (item == 0) {
+        printf("this number is zero"); 
     }
-    if (item < 0){
-        printf ("this is a negative number");
+    if (item < 0) {
+        printf("this is a negative number");
     }
     
     return 0;
