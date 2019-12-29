@@ -10,6 +10,7 @@
  * ввод: 3, 5 ⇒ вывод: дробь положительная; 
  * ввод: -4, 7 ⇒ вывод: дробь отрицательная
  */
+<<<<<<< HEAD
 #include <stdio.h>
 
 int main(void){
@@ -25,3 +26,20 @@ int main(void){
     
     return 0;
 }
+=======
+
+#include <stdio.h>
+
+int main(){
+    int n1;
+    int n2;
+    scanf("%d%d", &n1, &n2);
+    if (n1 < 0 && n2 < 0 || n1 > 0 && n2 > 0) {
+        printf("positive\n");
+    }
+    else {
+        printf("negative\n");
+    }
+}
+    
+>>>>>>> b80e4802520e266abe92b13f7ca59145f43bb35d
