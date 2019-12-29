@@ -10,3 +10,18 @@
  * ввод: 3, 5 ⇒ вывод: дробь положительная; 
  * ввод: -4, 7 ⇒ вывод: дробь отрицательная
  */
+#include <stdio.h>
+
+int main(void){
+    int num1;
+    int num2;
+    scanf("%d%d", &num1, &num2);
+    if (num1 >0 && num2 >0 || num1 <0 && num2 <0){
+        printf("positive");
+    }
+    else{
+        printf("negative");
+    }
+    
+    return 0;
+}
