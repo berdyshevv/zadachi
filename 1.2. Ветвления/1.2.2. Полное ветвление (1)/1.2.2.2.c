@@ -10,4 +10,18 @@
  * ввод: -8 ⇒ вывод: не положительное число; 
  * ввод: 0⇒ вывод: не положительное число
  */
+#include <stdio.h>
+
+int main() {
+    int bbc;
+    scanf("%d", &bbc);
+    if (bbc >0){
+        printf("positive");    
+    }
+    else{
+        printf("not positive");
+    }
+    
+    return 0;
+}
 

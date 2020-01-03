@@ -9,3 +9,18 @@
  * ввод: 24, 28 ⇒ вывод: стульев хватает; 
  * ввод: 24, 22 ⇒ вывод: стульев не хватает
  */
+#include <stdio.h>
+
+int main(void){
+    int a;
+    int b;
+    scanf("%d%d", &a, &b);
+    if (a >= b){
+        printf("enough");
+    }
+    else{
+        printf("not enough");
+    }
+    
+    return 0;
+}
