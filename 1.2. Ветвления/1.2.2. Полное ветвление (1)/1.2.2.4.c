@@ -9,3 +9,18 @@
  * Например: ввод: 24, 12 ⇒ вывод: парт хватает; 
  * ввод: 24, 10 ⇒ вывод: парт не хватает
  */
+#include <stdio.h>
+
+int main(void){
+    int a;
+    int b;
+    scanf("%d%d", &a, &b);
+    if (a <= b){
+        printf("enough");
+    }
+    else{
+        printf("not enough");
+    }
+    
+    return 0;
+}
