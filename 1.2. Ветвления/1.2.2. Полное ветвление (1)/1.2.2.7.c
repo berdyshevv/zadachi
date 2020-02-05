@@ -6,3 +6,18 @@
  * Например: 
  * ввод: 7, 2 ⇒ вывод в 1 строке: 2, 7 ⇒ вывод во 2 строке: 7, 2
  */
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    scanf("%d%d", &a, &b);
+    if (a > b){
+        printf("%d, %d\n%d, %d ", b, a, a, b);
+    }
+    else{
+        printf("%d, %d\n%d, %d ", a, b, b, a );        
+    }
+    
+    return 0;
+}

@@ -10,3 +10,20 @@
  * ввод: 5, 4, 6 ⇒ вывод: длина гипотенузы не соответствует длине катетов
  */
 
+#include <stdio.h>
+
+int main(void){
+    int a;
+    int b;
+    int c;
+
+    scanf("%d%d%d",&a, &b, &c);
+    if (a * a + b * b == c * c){
+        printf("yes");        
+    }
+    else {
+        printf("no");    
+    }
+
+    return 0;
+}
